@@ -85,12 +85,12 @@ prodNconsK pqcons n k vals = do
 
 coarseHeap :: PriorityQueue q => String -> STM (q Int Int) -> IO ()
 coarseHeap base cons =  do
-      prodNconsK cons 5 5 [1..10000]
+      prodNconsK cons 16 16 [1..100000]
 
 
 fineHeap :: PriorityQueue q => String -> STM (q Int Int) -> IO ()
 fineHeap base cons =  do
-      prodNconsK cons 5 5 [1..10000]
+      prodNconsK cons 16 16 [1..100000]
 
 
 performCoarseTest :: Int -> IO ()
