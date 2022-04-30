@@ -25,6 +25,7 @@ dependencies:
 - random
 - criterion
 - deepseq
+- stm
 
 library:
   source-dirs: src

@@ -18,7 +18,8 @@ import PriorityQueue
 import HeapPQ
 import THeapPQ
 
-import STM
+-- import STM
+import Control.Concurrent.STM
 
 
 {-   Producer/Consumer checkers and properties   -}

@@ -30,8 +30,8 @@ module PriorityQueue (
     PriorityQueue(..)
 ) where
 
--- import Control.Concurrent.STM
-import STM
+import Control.Concurrent.STM
+-- import STM
 
 class PriorityQueue q where
 
