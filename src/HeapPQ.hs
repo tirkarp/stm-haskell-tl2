@@ -18,8 +18,8 @@ module HeapPQ(
     HeapPQ
 ) where
 
-import Control.Concurrent.STM
--- import STM
+-- import Control.Concurrent.STM
+import STM
 import PriorityQueue
 
 data Heap k v = Nil
