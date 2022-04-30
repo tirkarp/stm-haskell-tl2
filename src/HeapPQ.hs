@@ -25,7 +25,7 @@ import PriorityQueue
 data Heap k v = Nil
               | Node {-# UNPACK #-} !Int -- rank
                      {-# UNPACK #-} !Int -- size
-                     !k                   -- prio
+                     !k                  -- prio
                      v                   -- item
                      !(Heap k v)         -- left
                      !(Heap k v)         -- right

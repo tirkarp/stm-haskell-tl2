@@ -1,6 +1,6 @@
-name:                stm
+name:                stm-tl2
 version:             0.1.0.0
-github:              "githubuser/stm"
+github:              "githubuser/stm-tl2"
 license:             BSD3
 author:              "Author name here"
 maintainer:          "example@example.com"
@@ -23,6 +23,8 @@ dependencies:
 - base >= 4.7 && < 5
 - containers
 - random
+- criterion
+- deepseq
 
 library:
   source-dirs: src
@@ -36,7 +38,7 @@ executables:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - stm
+    - stm-tl2
 
 tests:
   stm-test:
@@ -47,4 +49,4 @@ tests:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - stm
+    - stm-tl2
