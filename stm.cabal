@@ -26,8 +26,10 @@ source-repository head
 library
   exposed-modules:
       CigaretteSmokers
+      HeapPQ
       LinkedList
       MultipleBarbers
+      PriorityQueue
       SantaClaus
       SleepingBarber
       STM
